@@ -1,0 +1,25 @@
+ 27:09:2023 02:09 PM :INFO:a new reqest come:
+ 27:09:2023 02:09 PM :INFO:a new reqest come:
+ 27:09:2023 02:09 PM :ERROR:integer modulo by zero
+Traceback (most recent call last):
+  File "C:\Users\DELL\eclipse-workspace\Serialzation\Serialzation\Sender.py", line 13, in <module>
+    print("the result ",x%y)
+                        ~^~
+ZeroDivisionError: integer modulo by zero
+ 27:09:2023 02:09 PM :INFO:a new reqest come:
+ 27:09:2023 02:09 PM :ERROR:invalid literal for int() with base 10: 'sing'
+Traceback (most recent call last):
+  File "C:\Users\DELL\eclipse-workspace\Serialzation\Serialzation\Sender.py", line 12, in <module>
+    y=int(input("enter second number:"))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'sing'
+ 27:09:2023 02:13 PM :INFO:a new reqest come:
+ 27:09:2023 02:13 PM :INFO:a new reqest come:
+ 27:09:2023 02:13 PM :INFO:a new reqest come:
+ 27:09:2023 02:14 PM :INFO:a new reqest come:
+ 27:09:2023 02:14 PM :ERROR:division by zero
+Traceback (most recent call last):
+  File "C:\Users\DELL\eclipse-workspace\Serialzation\Serialzation\Sender.py", line 13, in <module>
+    print("the result ",x/y)
+                        ~^~
+ZeroDivisionError: division by zero

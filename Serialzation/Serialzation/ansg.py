@@ -1,0 +1,1 @@
+if option=='d' or option=='D': 25) amt=float(input('Enter amount:')) 26) c.deposit(amt) 27) elif option=='w' or option=='W': 28) amt=float(input('Enter amount:')) 29) c.withdraw(amt) 30) elif option=='e' or option=='E': 31) print('Thanks for Banking') 32) sys.exit() 33) else: 34) print('Invalid option..Plz choose valid option')
