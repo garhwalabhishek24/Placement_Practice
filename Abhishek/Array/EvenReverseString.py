@@ -2,7 +2,11 @@ s="one,two,three,four,five,six,seven,eight,nine,ten"
 s1=s.split()
 i=0
 l=[]
-for ch in s1:
+while i<len(s1):
     if i%2==0:
-        l.append(ch[i][::-1])
+        l.append(s1[i][::-1])
+    i=i+1
+print(l)    
+        
+                     
       

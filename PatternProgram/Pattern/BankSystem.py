@@ -3,18 +3,23 @@ import sys
 class Bank:
     '''make bank with abhishek gadhwal'''
     bankname="ansh@bank"
+    
     def __init__(self,name,balance=0):
         self.name=name
         self.balance=balance
     def deposit(self,amount):
         self.balance = self.balance+amount
         print("After Deposite amount",self.balance)
-
+   
     def withdral(self,amount):
+        count=1
         if amount >self.balance:
             print("insufficient balance")
             sys.exit()
         self.balance = self.balance -amount
+        count=count+1
+        if count>=3:
+            self.balance=self.balance-5
         print("After withdral yours balance",self.balance)
     def checkbalance(self):
         self.balance =print("your balance",self.balance)
