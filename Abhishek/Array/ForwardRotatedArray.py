@@ -4,6 +4,7 @@ output1=''
  
 for i in range(n):
     output1+= str(a[i])
+    
 k =len(output1)-1     
 for j in range(len(output1)):
     a[j]=int(output1[k])
