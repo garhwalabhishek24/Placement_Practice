@@ -1,8 +1,6 @@
 k = "hello a world java"
 s1=k.split()
-#l=[]
 i=s1[0]
-j=0
 output=""
 for i in s1:
     output+=i[::-1] + " "
